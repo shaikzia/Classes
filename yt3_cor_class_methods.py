@@ -33,7 +33,7 @@ print(Employee.hike)      # Class Variable hike value after applying set_raise_a
 print(emp1.hike)
 
 emp_str1 = 'Jaffer-Shaik-60000'
-new_emp1 = Employee.from_string(emp_str1)
+new_emp1 = Employee.from_string(emp_str1)  # Using the Class Method from_string
 print(new_emp1.first)
 print(new_emp1.last)
 print(new_emp1.email)
